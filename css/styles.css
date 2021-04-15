@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+li{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    object-fit: contain;
+    display: block;
+}
+img:hover{
+    object-fit: cover;
+}
